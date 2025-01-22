@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    
+    <div class="logoc">
+      <hr>
+      <h2>ESCALA</h2>
+      <!-- <img src="../img/logo.avif" alt="contactaremp" width="5%" /> -->
+      <div class="menuc container">
+        <hr>
+        
+        <nav class="navbar">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de nosotros</a></li>
+            <li><a href="travel.html">Travesias</a></li>
+            <li><a href="contac.html">Contactos</a></li>
+          </ul>
+        </nav>
+        <hr />
+      </div>
+    </div>
+    <header class="headercontac container">
+      
+      <section class="seccionescc container">
+        <div class="left-section">
+        <h1>Quiero más Información</h1>
+        <p>
+          Deseas unirte a nuestro equipo y disfrutar de aventuras Inolvidables, completa
+          el siguiente formulario y nos pondremos en contacto para brindarte más Información:
+        </p>
+
+        <form
+          action="mailto:escala@empresa.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="nombre">Nombre:</label><br />
+          <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+          <label for="email">Correo Electrónico:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="telefono">Teléfono:</label><br />
+          <input type="tel" id="telefono" name="telefono" /><br /><br />
+
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            cols="30"
+            required
+          ></textarea
+          ><br /><br />
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Restablecer</button>
+        </form>
+      </div>
+      <div class="right-section">
+        <img src="../img/divcont.jpg" alt="">
+      </div>
+      </section>
+    </header>
+
+    <footer>
+      <div class="footer-txt container">
+        <p>&copy; 2024 Escala.</p>
+        <p>
+          Dirección: Salinas y Av. Teodoro Gomez de la Torre, Ibarra, Ecuador
+        </p>
+        <p>Teléfono: +593 981546707</p>
+        <p>Correo: reservas@escala.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
